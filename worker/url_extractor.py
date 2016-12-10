@@ -6,7 +6,11 @@ from bs4 import BeautifulSoup
 
 
 def extract_detail_urls(collection_url):
-    html = urlopen(collection_url)
+    try:
+        html = urlopen(collection_url)
+    except ValueError:
+        return []
+
     # print(html.read())
     soup = BeautifulSoup(html.read(), "html.parser")
     links = soup.findAll('a', {'id': 'documentsbutton'})
