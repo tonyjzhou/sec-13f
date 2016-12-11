@@ -13,4 +13,4 @@ Download and analyse SEC 13F for invest holdings.
     * in txt
 
 ## Reference
-https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001067983&type=13F%25&dateb=&owner=exclude&start=0&count=40
+https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001067983&type=13F%25&start=0&count=40
